@@ -1,0 +1,214 @@
+{
+  "source_base_path": "C:/REPOS/BOOSEapplication/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapplication.AppCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapplication.AppCanvas.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapplication.AppCanvas",
+      "Summary": "<p sourcefile=\"api/BOOSEapplication.AppCanvas.yml\" sourcestartlinenumber=\"1\">AppCanvas inherits from Icanvas and manages the drawing surfaces, pen setting and the rendering.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapplication.AppCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapplication.AppCircle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapplication.AppCircle",
+      "Summary": "<p sourcefile=\"api/BOOSEapplication.AppCircle.yml\" sourcestartlinenumber=\"1\">command which draws a circle on the canvas</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapplication.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapplication.AppCommandFactory.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapplication.AppCommandFactory",
+      "Summary": "<p sourcefile=\"api/BOOSEapplication.AppCommandFactory.yml\" sourcestartlinenumber=\"1\">Creates command objects based on the command name provided by the user</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapplication.AppDrawTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapplication.AppDrawTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapplication.AppDrawTo",
+      "Summary": "<p sourcefile=\"api/BOOSEapplication.AppDrawTo.yml\" sourcestartlinenumber=\"1\">AppDrawTo inherits from CommandOneParameter.It does a draw commaned where it moves the pen to a new position while drawing a line from the current location</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapplication.AppMoveTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapplication.AppMoveTo.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapplication.AppMoveTo",
+      "Summary": "<p sourcefile=\"api/BOOSEapplication.AppMoveTo.yml\" sourcestartlinenumber=\"1\">command which moves the drawing cursor to a new position on the canvas, two parameters requierd(x,y).AppMoveTO inherits from CommandOneParameter.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapplication.AppRect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapplication.AppRect.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapplication.AppRect",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapplication.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapplication.Form1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapplication.Form1",
+      "Summary": "<p sourcefile=\"api/BOOSEapplication.Form1.yml\" sourcestartlinenumber=\"1\">main application form for the GUI.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapplication.PenColour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapplication.PenColour.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapplication.PenColour",
+      "Summary": "<p sourcefile=\"api/BOOSEapplication.PenColour.yml\" sourcestartlinenumber=\"1\">PenColour inhertits from CommandOneParameter.command that sets the pen colour used for drawing in (R,G,B)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BOOSEapplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BOOSEapplication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "BOOSEapplication",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Redirection",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
